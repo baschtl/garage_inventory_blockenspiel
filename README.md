@@ -46,7 +46,7 @@ GarageInventoryBlockenspiel.initialize_with_file(file_path)
 Alternatively, you can pass in a `Dsl` instance if you want to get further access to the loaded definition:
 
 ```ruby
-  dsl = GarageInventory::Dsl.new
+  dsl = GarageInventoryBlockenspiel::Dsl.new
   GarageInventoryBlockenspiel.initialize_with_file(file_path, dsl)
 ```
 
